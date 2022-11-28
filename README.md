@@ -1,66 +1,35 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Crud CupCakePop
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este projeto foi gerado utilizando o Laravel Framework 9.41.0 [Laravel](https://laravel.com.
 
-## About Laravel
+## Sobre o projeto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Este projeto é um CRUD simples para representar as funções Create, Read, Update e Delete.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Procedimento
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Primeiramente, instalamos o Xampp [XAMPP](https://www.apachefriends.org/pt_br/index.html) e o Composer [Composer](https://getcomposer.org).
 
-## Learning Laravel
+## Desenvolvimento
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. Criamos o projeto através do Composer.
+2. Criamos o banco de dados vazio e a conexão através do MySQL, utilizando o DBeaver 22.2.5, com o comando "create database crud_cupcakepop_db".
+3. Seguimos o procedimento passado em sala de aula pelo professor João Cunha através do comando "php artisan make:migration..." no CMD.
+4. Preenchemos os arquivos criados com a estrutura modelo passada pelo professor e utilizamos o comando no CMD "php artisan migrate".
+5. Seguimos todo o tutorial passado pelo professor para criação de pastas, arquivos e preenchimentos adequados.
+6. Por iniciativa do nosso grupo, utilizamos o Blade para criar uma pasta com os arquivos layout, index, create, edit e show para agilizar a interface gráfica do CRUD.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Projeto pronto
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Com o projeto pronto, demos o comando no CMD "php artisan serve".
+Em seguida, abrimos no browser a URL: "http://localhost:8000/clientes", para visualizarmos a ação do CRUD pronto.
 
-## Laravel Sponsors
+## Componentes do grupo:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Aline Aparecida Vicente de Souza - 202203033719 
+## Beatriz Helena Pedro - 202211215081
+## Fabrício Mascarenhas Ribeiro - 202212039521
+## Fernando Augusto Presa - 202202140627  
+## Laura Santos Honório - 202202355046 
+## Letícia de Carvalho Alves - 202204222302
+## Priscila Oliveira da Cruz - 202212086048
