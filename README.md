@@ -1,6 +1,6 @@
 # Crud CupCakePop
 
-Este projeto foi gerado utilizando o Laravel Framework 9.41.0 [Laravel](https://laravel.com.
+Este projeto foi gerado utilizando o Laravel Framework 9.41.0 [Laravel](https://laravel.com).
 
 ## Sobre o projeto
 
