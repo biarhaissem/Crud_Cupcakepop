@@ -1,4 +1,4 @@
-# Crud CupCakePop
+# Crud_Cupcakepop
 
 Este projeto foi gerado utilizando o Laravel Framework 9.41.0 [Laravel](https://laravel.com).
 
