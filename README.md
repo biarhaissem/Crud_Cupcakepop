@@ -1,4 +1,5 @@
 # Crud_Cupcakepop
+Laravel Crud Project with Blade
 
 Este projeto foi gerado utilizando o Laravel Framework 9.41.0 [Laravel](https://laravel.com).
 
